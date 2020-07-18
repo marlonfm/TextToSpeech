@@ -1,0 +1,71 @@
+body {
+    background: rgb(226, 219, 219);
+
+
+}
+
+
+.contentNew .logarNew label {
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: 30%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.alignFlex {
+    display: flex;
+    flex-direction: column;
+}
+
+.contentNew {
+    height: 100vh;
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.logarNew {
+    background-color: #7f1cef;
+    width: 60%;
+    margin: auto;
+    border-radius: 16px;
+    box-shadow: 1px 1px 4px 1px rgb(165, 159, 159);
+}
+
+.logarNew h2 {
+    text-align: center;
+    color: white;
+    margin-right: 35px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.inputpost {
+    width: 40% !important;
+    color: #7f1cef;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 30%;
+}
+
+.btnpublicar {
+    width: 18%;
+    color: rebeccapurple;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 45px;
+    font-size: 17px;
+    margin-left: 40%;
+}
+
+.btnpublicar:hover {
+    background-color: white;
+}

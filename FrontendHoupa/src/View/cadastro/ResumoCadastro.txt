@@ -1,0 +1,2 @@
+Referente ao Cadastro, estou consumindo em POST uma API feita no Backend com NodeJS, Para que o usuário consiga prosseguir.
+
