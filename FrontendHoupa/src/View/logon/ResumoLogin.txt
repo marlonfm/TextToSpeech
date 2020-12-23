@@ -1,3 +1,0 @@
-Referente a tela de Login, consumida em GET para verificar se o usuário existe, se sim vai para a tela de "Dashboard" do usuario, se não, dá um alerta.
-
-o ID é um hash gerado com o crypto do Node.

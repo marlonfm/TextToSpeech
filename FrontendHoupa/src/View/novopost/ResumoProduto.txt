@@ -1,5 +1,0 @@
-Referente ao cadastro de produtos, consumindo POST.
-
-ao selecionar a imagem, a mesma aparece em tela antes de cadastrar.
-Usei o Dropzone do próprio React.
-

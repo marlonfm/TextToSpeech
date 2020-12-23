@@ -1,8 +1,0 @@
-Referente ao Dashboard, consumi minha api em GET, usando o UseEffect do React Hooks, para renderizar na tela o que foi cadastrado de produtos, sem precisar submitar a página.
-
-para mostrar em tela, eu uso o Map percorrendo o array do Response.
-
-Há um icone de Voltar, quando clicar, desloga da sessão do usuário e volta para a tela de Login.
-
-entre os produtos cadastrados, há um icone de Lixeira, ao clicar sera perguntado novamente ao usuário se ele deseja excluir seu produto.
-
