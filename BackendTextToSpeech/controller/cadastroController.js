@@ -9,11 +9,6 @@ var FileReader = require('filereader')
   , fileReader = new FileReader()
   ;
 
-
-
-
-
-
 module.exports = {
 
     async index(req, res) { 
@@ -48,9 +43,9 @@ module.exports = {
 
         await connection('cadastro').insert({
             id,
-            comentario,
+            comentario, 
             nome_audio,
-        })
+        }) 
 
         const textToSpeech = new TextToSpeechV1({
             //iam_apikey: 'qgm1lh_c27NcPu2wT5a9IVQN_Md2HsLbK2WKTldJckru',

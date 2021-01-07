@@ -20,7 +20,7 @@ const Cadastro = () => {
             alert('ok '+consomeApi.data.id);
             localStorage.setItem('id', consomeApi.data.id);
 
-            History.push('/cadastro');
+            History.push('/home');
         }   
 
         catch(err){
@@ -30,7 +30,7 @@ const Cadastro = () => {
     }
 
     const ids = localStorage.getItem('id');
-    console.log(ids);
+    
     useEffect(()=>{
 
 
@@ -47,19 +47,11 @@ const Cadastro = () => {
     }, [ids]);
 
     function chamaAudio(audi) {
-        
-        
 
-        console.log(audi);
-        //const audios = document.querySelector('audio'); audios.play();
-        //audi = "http://localhost:3002/audio/teste.mp3";
-        
         var audio = new Audio(audi);
 
         audio.play();
-
-        
-        
+   
     }
 
     return(
@@ -70,7 +62,7 @@ const Cadastro = () => {
                     <div className="form">
 
                         <form className="form" onSubmit={enviaData}>
-                            <label className="label-form">Comentario</label>
+                            <label className="label-form">Digite o que quer ouvir !</label>
 
                             
 
@@ -81,7 +73,7 @@ const Cadastro = () => {
                             onChange={e=>setComentario(e.target.value)}
                             />
 
-                            <button type="submit">Cadastrar</button>
+                            <button type="submit"><p>Cadastrar</p></button>
                         </form>
 
                     </div>
@@ -98,7 +90,7 @@ const Cadastro = () => {
                                 <button 
                                 type="button" 
                                 onClick={() => chamaAudio(item.audio_url)}>
-                                    Ouvir
+                                    <p>Ouvir</p>
                                 </button>
                                 
                             </div>

@@ -6,10 +6,9 @@ import Cadastro from './View/cadastro'
 export default function Routes() {
     return (
         <BrowserRouter>
-        <Switch>  
-
-        <Route path="/"  exact component={Cadastro} />
-          <Route path="/cadastro"  component={Cadastro} />
+        <Switch>   
+          <Route path="/" exact component={Cadastro} />
+          <Route path="/home" component={Cadastro} />
         </Switch>        
         </BrowserRouter>
     );
